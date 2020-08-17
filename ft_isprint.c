@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abelarif <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: abelarif <abelarif@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/09 12:56:55 by abelarif          #+#    #+#             */
-/*   Updated: 2020/01/09 14:40:12 by abelarif         ###   ########.fr       */
+/*   Updated: 2020/08/17 08:05:08 by abelarif         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 int		ft_isprint(int c)
 {
-	unsigned char k;
-
-	k = (unsigned char)c;
 	if (c <= 126 && c >= 32)
 		return (1);
 	else

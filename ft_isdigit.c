@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: abelarif <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: abelarif <abelarif@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/01/09 12:56:00 by abelarif          #+#    #+#             */
-/*   Updated: 2020/01/09 14:40:43 by abelarif         ###   ########.fr       */
+/*   Updated: 2020/08/17 08:05:16 by abelarif         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,6 @@
 
 int		ft_isdigit(int c)
 {
-	unsigned char k;
-
-	k = (unsigned char)c;
 	if (c <= 57 && c >= 48)
 		return (1);
 	else
